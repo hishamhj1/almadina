@@ -1,0 +1,207 @@
+/* .....header..... */
+.header{
+    background-color: white;
+    z-index: 2;
+}
+.top-bar{
+    background-color:lightsteelblue;
+    padding: 10px;
+    /* width: 100%; */
+}
+.topbar-left-text a{
+    color:black ;
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.topbar-icons{
+    float: right;
+}
+.topbar-right-icons .topbar-icons li {
+    list-style: none;
+    color: white;
+    float: left;
+    border-right: 1px solid #fff;
+
+}
+.topbar-right-icons .topbar-icons li a{
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 0;
+}
+.topbar-right-icons .topbar-icons li a i{
+    font-size: 25px;
+}
+.topbar-icons .btn{
+    color: white;
+   margin-left:10px ;
+   text-align: center;
+   color:black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  
+}
+/* .....navbar.... */
+.second-content{
+    margin-top: 10px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.nav-item a{
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+}
+/* ...footer..... */
+.footer{
+    margin-top: 10px;
+    background-color:whitesmoke;
+    border-top: 2px solid lightsteelblue;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer-contents{
+    margin-top: 10px;
+}
+.footer-title{
+    font-weight: bold;
+}
+.footer-about-desc {
+    font-size: 15px;
+}
+.footer-services {
+    list-style: none;
+    padding: 0;
+}
+.footer-services a:hover{
+    color: lightskyblue;
+}
+.footer-services a{ 
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer-contents .icon i{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+}
+.footer-contents .icon i:hover{
+    color: lightskyblue;
+}
+.copyright-contents{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* .....carousel..... */
+.carousel-section{
+    margin-top: 10px;
+    border: 1px solid #ebebeb;
+
+}
+.carousel-item{
+    width: 100%;
+    height: 500px;
+   
+}
+
+.carousel_img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    position: relative;
+}
+.carousel-text {
+    position: absolute;
+    font-weight: bold;
+    z-index: 1;
+    top:50%;
+    transform: translateY(-50%);
+    left: 50%;
+}
+.carousel-text p{
+    font-size: 20px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+/* ...services..... */
+.services{
+    margin-top: 10px;
+   
+    /* border: 1px solid #4E6B31; */
+}
+.services .card-header{
+    font-size: 25px;
+}
+.body-first-row{
+    margin-bottom: 10px;
+}
+.service-detail{
+    width: 100%;
+    /* background-color: #B0C4DE; */
+    transition: 0.5s;
+}
+.service-detail img{
+    object-fit:cover;
+    width: 100%;
+    transition: 0.8s;
+    margin-top: 13px;
+}
+.service-detail:hover{
+    transform: scale(1.1);
+}
+.service-detail h4{
+    font-size: 14px;
+    color:cornflowerblue;
+    text-align: center;
+    padding-top: 10px ;
+}
+.service-detail a{
+    text-decoration: none;
+}
+/* ...why-us.... */
+.why-us{
+    margin-top: 15px;
+}
+.why-us-title{
+    text-align: center;
+}
+.why-us-title h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+.first-reason{
+    height:200px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid darkcyan;
+    margin-top:15px;
+}
+.first-reason img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+/* .....review.... */
+.review{
+margin-top:30px;
+}
+.review-title{
+    text-align: center;
+}
+.review-title h4{
+    font-size: 25px;
+    font-weight: bold;
+}
