@@ -18,6 +18,7 @@ a{
 }
 .topbar-icons{
     float: right;
+    margin-top: 10px;
 }
 .topbar-right-icons .topbar-icons li {
     list-style: none;
@@ -25,6 +26,9 @@ a{
     float: left;
     border-right: 1px solid #fff;
 
+}
+.topbar-right-icons .topbar-icons span li {
+    border: none;
 }
 .topbar-right-icons .topbar-icons li a{
     color: white;
@@ -48,6 +52,12 @@ a{
     z-index: 5;
   
 }
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{ display: block;  }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}   
 /* .....navbar.... */
 .second-content{
     margin-top: 10px;
@@ -59,6 +69,9 @@ a{
     font-size: 16px;
     font-weight: bold;
     color:black;
+}
+.nav-item:hover{
+    background-color: whitesmoke
 }
 /* ...footer..... */
 .footer{
@@ -164,9 +177,11 @@ a{
 }
 .service-detail h4{
     font-size: 14px;
-    color:cornflowerblue;
+    color:black;
     text-align: center;
     padding-top: 10px ;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 .service-detail a{
     text-decoration: none;
@@ -195,13 +210,372 @@ a{
     width: 100%;
 }
 /* .....review.... */
-.review{
-margin-top:30px;
+.review-section{
+margin-top:50px;
 }
 .review-title{
     text-align: center;
+    margin-bottom: 20px;
 }
 .review-title h4{
     font-size: 25px;
     font-weight: bold;
+}
+.review-images{
+    height: 250px;
+    width: 100%;
+
+}
+.review-images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.review-content{
+    position: absolute;
+    font-weight: bold;
+    z-index: 1;
+    top:50%;
+    transform: translateY(-50%);
+    left: 25%;
+    width: 50%;
+    font-family: 'Pushster', cursive;
+
+}
+.review-content p{
+    font-size: 20px;
+}
+.blockquote-footer{
+    color: black;
+}
+
+
+/* ....subscription....*/
+.subscription-section{
+    margin-top: 30px;
+}
+.subscribe-title{
+    text-align: center;
+}
+.subscribe-title h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+.subscription-section .form-group{
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.subscription-section .form-group input{
+    text-align: center;
+}
+.subs-button{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subs-button .btn{
+    width: 140px;
+}
+
+/* ....top-img.... */
+.top-content{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.top-headings{
+   text-align: center;
+}
+.top-headings h5{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+/* ul.breadcrumb{
+    background-color:white;
+    text-align: center;
+   
+} */
+
+.middle-image{
+    height: 455px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.middle-image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.middle-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* ....service-page.... */
+.service-images{
+    height:300px;
+    width: 100%;
+}
+.service-images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bottom-content{
+    margin-top: 20px;
+}
+.service-title{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.service-title h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+.other-service-heading{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #ebebeb;
+}
+.other-service{
+   
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    transition: 1.5s;
+}
+.other-service:hover{
+    transform: scale(1.1);
+}
+.other-service img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.other-service-desc{
+    margin-top: 10px;
+}
+.other-service-desc a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.other-service-desc h5{
+    font: 20px;
+}
+.other-service-desc p{
+    font-size: 15px;
+}
+
+/* .....booking-form.. */
+.booking-form{
+    margin-top: 30px;
+    border: 1px solid #ebebeb;
+}
+.booking-form form{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+/* ...contact-us... */
+.contact{
+    margin-top: 30px;
+    border: 2px solid #ebebeb;
+}
+
+.phone-no-icon{
+    display: flex;
+    padding: 30px 50px;
+}
+.phone-no-icon i{
+    margin-right: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.phone-no-icon a{
+    text-decoration: none;
+    color: black;
+}
+.follow-us{
+    margin-top: 10px;
+     padding: 30px 50px;
+
+}
+.follow-us-heading{
+    font-size: 25px;
+}
+.follow-us .social-icons i{
+    font-size: 25px;
+    padding: 10px;
+}
+.follow-us .social-icons a{
+    color: #666666;
+    transition: 0.6s;
+
+}
+.follow-us .social-icons a:hover{
+    color: lightgreen;
+}
+.form-control{
+    margin-bottom: 30px;
+
+}
+.contact-info-section button{
+     margin: 10px 30px 30px 30px;
+
+    width: 200px;
+
+}
+.contact-info-section-heading h5{
+    padding: 20px;
+}
+
+/* ...gallery.... */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .......blog.... */
+.blog-content{
+    margin-top: 30px;
+}
+.blog-posts{
+  height: 550px;
+ border: 2px solid #ebebeb;
+ margin-bottom: 30px;
+}
+.post-image{
+    height: 300px;
+    width: 100%;
+}
+.post-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.post-desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub-title{
+    font-size: 15px;
+    opacity: 0.5;
+    display: flex;
+    border-bottom: 2px solid #ebebeb;
+    
+}
+.sub-title h6{
+    margin-right: 10px;
+    border-right: 1px solid #c9c0c0;
+    margin-bottom: 20px;
+    padding-right: 5px;
+  
+}
+.sub-title span h6{
+    border: none;
+}
+.desc p{
+    font-size: 15px;
+}
+.read-more{
+    float: right;
+    margin-right: 10px;
+}
+.read-more a{
+    color: black;
+    text-decoration: none;
+    transition: 1.5s;
+}
+.read-more a h6{
+   font-size: 15px;
+}
+.read-more a i{
+    margin-left: 3px;
+}
+.read-more a:hover{
+    color:lightgreen;
+}
+.recent-post-contents{
+    padding-left: 20px;
+    font-family:sans-serif;
+}
+.main-title{
+    font-weight: bold;   
+    border-bottom: 2px solid #ebebeb;
+}
+.main-title h3{
+    margin-bottom: 20px;
+}
+.blog-title{
+    margin-top: 20px;
+    border-bottom:1px solid #ebebeb;
+}
+.blog-title p{
+    font-size: 15px;
+
+}
+.blog-title span p{
+    opacity: 0.5;
+}
+.blog-title a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.blog-title a:hover{
+    color:lightgreen;
+    transform: scale(1.5);
+}
+span .blog-title{
+    border: none;
+    margin-bottom: 50px;
+}
+.tags{
+   margin-top: 20px;
+}
+
+.tag-names p{
+    background-color: rgb(174, 209, 224);
+    padding: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* .........ReadMore......... */
+.readmore-contents{
+    padding: 20px;
+}
+.readmore-image{
+    width: 100%;
+}
+.readmore-image img{
+    object-fit: cover;
+    width: 100%;
 }

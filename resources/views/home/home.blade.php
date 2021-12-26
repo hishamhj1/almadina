@@ -2,6 +2,9 @@
 
 
 @section('content')
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,800;1,200;1,300;1,400;1,700&family=Pushster&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+</style>
 <div class="carousel-section">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -46,17 +49,17 @@
             <div class="card-body">
                 <div class="body-first-row">
                     <div class="row">
-                        <x-service-card imageUrl="{{url('images/service1.jpg')}}" title="we provide you the best meaurement facilty"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Best learning facility from experienced guides"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service3.jpg')}}" title="subtle environment"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service1.jpg')}}" title="we provide you the best meaurement facilty.we provide you the best meaurement facilty.we provide you the best meaurement facilty"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Best learning facility from experienced guides.we provide you the best meaurement faciltywe provide you the best meaurement facilty"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service3.jpg')}}" title="subtle environment.we provide you the best meaurement facilty.we provide you the best meaurement facilty"></x-service-card>
 
                     </div>
                 </div>
                 <div class="body-first-row">
                     <div class="row">
-                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Best learning facility from experienced guides"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service5.jpg')}}" title="subtle environment"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service4.jpg')}}" title="we provide you the best meaurement facilty"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Best learning facility from experienced guides.Best learning facility from experienced guides.Best learning facility from experienced guides"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service5.jpg')}}" title="subtle environment.subtle environment.subtle environment.subtle environment"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service4.jpg')}}" title="we provide you the best meaurement facilty.subtle environment.subtle environment"></x-service-card>
 
                     </div>
                 </div>
@@ -94,32 +97,76 @@
         </div>
     </div>
 </div>
-<div class="review">
+<div class="review-section">
     <div class="container">
         <div class="review-title">
             <h4>What Our Client Have To Say About Us</h4>
         </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{url('images/review1.jpg')}}" class="d-block w-100" alt="images">
+        <div class="owl-carousel owl-theme reviews">
+            <div class="item">
+                <div class="review-images">
+                    <img src="{{url('images/review1.jpg')}}" alt="reviwe-images">
+                    <div class="review-content">
+                        <blockquote class="blockquote mb-0">
+                            <p>A well-known quote, contained in a blockquote element.</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="review-images">
+                    <img src="{{url('images/review2.jpg')}}" alt="reviwe-images">
+                    <div class="review-content">
+                        <blockquote class="blockquote mb-0">
+                            <p>A well-known quote, contained in a blockquote element.</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="review-images">
+                    <img src="{{url('images/review3.jpg')}}" alt="reviwe-images">
+                    <div class="review-content">
+                        <blockquote class="blockquote mb-0">
+                            <p>A well-known quote, contained in a blockquote element.</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="review-images">
+                    <img src="{{url('images/review1.jpg')}}" alt="reviwe-images">
+                    <div class="review-content">
+                        <blockquote class="blockquote mb-0">
+                            <p>A well-known quote, contained in a blockquote element.</p>
+                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-    <div class="carousel-item">
-      <img src="{{url('images/review2.jpg')}}" class="d-block w-100" alt="images">
-    </div>
-    <div class="carousel-item">
-      <img src="{{url('images/review3.jpg')}}" class="d-block w-100" alt="images">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </button>
 </div>
+<div class="subscription-section">
+    <div class="container">
+        <div class="subscribe-title">
+            <h4> For Subscription</h4>
+        </div>
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="hello@gmail.com" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="subs-button" >
+            <button type="submit" class="btn btn-primary">subscribe</button>
+            </div>
+        </form>
     </div>
 </div>
 

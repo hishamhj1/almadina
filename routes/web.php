@@ -18,16 +18,28 @@ Route::get('/', function () {
 });
 
 
-Route::get('home-page', function () {
+Route::get('home', function () {
     return view('home.home');
 });
-Route::get('about-page', function () {
+Route::get('about', function () {
     return view('pages.about');
 });
-route::get('contact-page',function(){
+route::get('contact',function(){
     return view('pages.contact');
 });
-route::get('our-service-page',function(){
+route::get('our-service',function(){
     return view('pages.our-service');
+});
+route::get('booking-form',function(){
+    return view ('pages.booking-form');
+});
+route::get('gallery',function(){
+    return view('pages.gallery');
+});
+route::get('blog',function(){
+    return view('pages.blog');
+});
+route::get('readmore',function(){
+    return view('pages.readmore');
 });
 
