@@ -4,10 +4,10 @@
 <div class="top-content">
     <div class="top-headings">
         <h5>About Us</h5>
-        <!-- <ul class="breadcrumb">
+        <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">about</li>
-        </ul> -->
+        </ul>
     </div>
 </div>
 <div class="middle-section">

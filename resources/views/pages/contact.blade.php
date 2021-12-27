@@ -64,7 +64,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<input type="subject*" class="form-control" placeholder="subject*">
+						<input type="subject*" class="form-control" placeholder="subject">
 					</div>
 					<div class="form-group">
 						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="write your Review"></textarea>

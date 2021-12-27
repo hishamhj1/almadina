@@ -5,4 +5,4 @@
                                     <h4>{{ $title }}</h4>
                                 </a>
                             </div>
-                        </div>
+                        </div> 

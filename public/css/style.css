@@ -27,7 +27,7 @@ a{
     border-right: 1px solid #fff;
 
 }
-.topbar-right-icons .topbar-icons span li {
+.topbar-right-icons .topbar-icons li:last-child {
     border: none;
 }
 .topbar-right-icons .topbar-icons li a{
@@ -60,7 +60,7 @@ a{
 }   
 /* .....navbar.... */
 .second-content{
-    margin-top: 10px;
+    background-color: whitesmoke;
 }
 .nav-item{
     margin-right: 10px;
@@ -293,11 +293,11 @@ margin-top:50px;
     font-weight: bold;
     
 }
-/* ul.breadcrumb{
+ul.breadcrumb{
     background-color:white;
     text-align: center;
    
-} */
+}
 
 .middle-image{
     height: 455px;
@@ -314,7 +314,67 @@ margin-top:50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-/* ....service-page.... */
+/* ....service-main-page.... */
+.service-page{
+    padding: 20px;
+}
+.service{
+    border: 2px solid #ebebeb;
+    padding: 20px 30px 30px 30px;
+    transition: 1.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 35px;
+}
+.service-img{
+    height: 300px;
+    width: 100%;
+}
+.service-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.service-page a{
+    color: black;
+    text-decoration: none;
+}
+.service:hover{
+    transform:scale(1.01);
+    border-color: lightslategray;
+}
+.service .btn{
+    float: right;
+}
+
+.service-listing-heading{
+    border-bottom: 1px solid #ebebeb;
+}
+.service-listing-heading h5{
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+.service-listing{
+    margin-top: 20px;
+}
+.service-listing-image{
+    height: 100px;
+    width: 100%;
+}
+.service-listing-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.service-listing-desc{
+    text-align: center;
+    margin-top: 10px;
+}
+.service-listing-desc h6{
+    font-size: 15px;
+}
+
+/* ....service-sub-page...... */
 .service-images{
     height:300px;
     width: 100%;
@@ -325,24 +385,25 @@ margin-top:50px;
     object-fit: cover;
 }
 .bottom-content{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .service-title{
-    font-family: sans-serif;
+    font-family: 'Libre Baskerville', serif;
     margin-top: 20px;
 }
 .service-title h4{
     font-size: 25px;
-    font-weight: bold;
+    font-weight:200;
+    letter-spacing: 2px;
 }
 .other-service-heading{
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
     border-bottom: 2px solid #ebebeb;
+    font-family: 'Libre Baskerville', serif;
 }
 .other-service{
-   
     width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -358,32 +419,113 @@ margin-top:50px;
 }
 .other-service-desc{
     margin-top: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
 .other-service-desc a{
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
+    
 }
-.other-service-desc h5{
-    font: 20px;
-}
-.other-service-desc p{
+.other-service-desc a h5{
     font-size: 15px;
+}
+/* .other-service-desc p{
+    font-size: 15px;
+} */
+.testing{
+    margin-top:10px;
+}
+.testing-image{
+    height: 400px;
+    width: 100%;
+}
+.testing-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.testing-desc{
+    margin-top: 20px;
+}
+.testing-title{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.testing-title h3{
+    font-size: 25px;
+}
+.testing-content{
+    font-family: 'Libre Baskerville', serif;
+}
+.testing-content p{
+    font-size: 20px;
+}
+.otherservice-cards{
+    margin-top: 40px;
+}
+.otherservice-title h3{
+    text-align: center;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.otherservice-content{
+    margin-top: 20px;
+}
+.other{
+    padding: 10px;
+    /* box-shadow: 2px 2px 2px 2px #777; */
+    transition: 1.4s;
+}
+.other:hover{
+    color: coral;
+}
+.other-image{
+    height: 150px;
+    width: 100%;
+}
+.other-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.otherservice-content a{
+    text-decoration: none;
+    color: black;
+}
+.other-title{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* .....booking-form.. */
 .booking-form{
     margin-top: 30px;
-    border: 1px solid #ebebeb;
+    border: 2px solid #ebebeb;
+    box-shadow: 2px 2px 10px grey;
+   border-radius: 11px;
 }
 .booking-form form{
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.booking-form-heading h3{
+    font-size: 25px;
+   
+    text-align: center;
+    margin-top: 20px;
+}
+.booking-form form label{
+    font-size: 20px;
+    font-weight: 400;
 }
 /* ...contact-us... */
 .contact{
     margin-top: 30px;
-    border: 2px solid #ebebeb;
+}
+.contact-info-section{
+    border: 1px solid #ebebeb;
+}
+.contact-info-section form{
+    padding: 10px;
 }
 
 .phone-no-icon{
@@ -435,27 +577,26 @@ margin-top:50px;
 }
 
 /* ...gallery.... */
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
+.gallery {
+    margin:20px;  
+ }
+.gallery img {
     width: 100%;
     height: auto;
+    border-radius:2px; 
+    box-shadow: 2px 2px 2px #c9c0c0;
   }
-  
-  div.desc {
-    padding: 15px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+.gallery-carousel{
+    margin: 20px;
 }
+.gallery-carousel .carousel-inner .carousel-item{
+    height: 300px;
+}
+.gallery-carousel .carousel-inner img{
+    height: 300px;
+    object-fit: cover;
+}
+
 /* .......blog.... */
 .blog-content{
     margin-top: 30px;

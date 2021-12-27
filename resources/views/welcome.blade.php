@@ -10,7 +10,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Bootstrap css -->
-        <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.css')}}">
         <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
 
         <!-- owl carousel -->
@@ -37,7 +36,6 @@
     </body>
 
     <!-- Bootstrap js -->
-    <script src="{{url('js/bootstrap.js')}}"></script>
     <script src="{{url('js/bootstrap.min.js')}}"></script>
 
 

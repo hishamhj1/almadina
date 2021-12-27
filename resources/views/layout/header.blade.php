@@ -13,11 +13,9 @@
                         <ul class="topbar-icons">
 
                             <li><a href="tel:9808039867"><i class="fas fa-phone-volume"></i></a></li>
-                            <li><a href="{{url('https://www.facebook.com/')}}"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="{{url('https://twitter.com/')}}"><i class="fab fa-twitter"></i></a></li>
-                            <span>
-                                <li><a href="{{url('https://www.instagram.com/')}}"><i class="fab fa-instagram"></i></a></li>
-                            </span>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
 
 
 
@@ -46,11 +44,11 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link  dropdown-toggle" href="{{url('our-service')}}" data-bs-toggle="dropdown">Services </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="{{url('0ur-services')}}">Geotechnical investigation  </a></li>
+                                    <li><a class="dropdown-item" href="{{url('geotechnical-investigation')}}">Geotechnical investigation  </a></li>
                                     <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="{{url('0ur-services')}}">Material Testing </a></li>
+                                    <li><a class="dropdown-item" href="{{url('material-testing')}}">Material Testing </a></li>
                                     <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="{{url('0ur-services')}}">laboratory Testing</a></li>
+                                    <li><a class="dropdown-item" href="{{url('laboratory-testing')}}">laboratory Testing</a></li>
                                     <div class="dropdown-divider"></div>
                                 </ul>
                             </li>    

@@ -9,7 +9,7 @@
 <div class="blog-content">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-sm-8">
+            <div class="col-lg-8  col-md-8 col-sm-12">
                 <div class="blog-posts">
                     <div class="post-image">
                         <a href="#"><img src="{{url('images/blog1.jpg')}}" alt="post-images"></a>
@@ -27,7 +27,7 @@
                         <div class="desc">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, porro quod. Optio iusto id ipsum nemo deleniti beatae nam praesentium veniam? Voluptates laborum adipisci corporis ex odio illum, mollitia rem.</p>
                         </div>
-                        <div class="read-more">
+                        <div class="read-more clearfix">
                             <a href="{{'readmore'}}">
                                 <h6>Readmore<i class="fas fa-angle-double-right"></i> </h6>
                             </a>

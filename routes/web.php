@@ -42,4 +42,13 @@ route::get('blog',function(){
 route::get('readmore',function(){
     return view('pages.readmore');
 });
+route::get('geotechnical-investigation',function(){
+    return view('pages.geotechnical-investigation');
+});
+route::get('material-testing',function(){
+    return view('pages.material-testing');
+});
+route::get('laboratory-testing',function(){
+    return view('pages.laboratory-testing');
+});
 
