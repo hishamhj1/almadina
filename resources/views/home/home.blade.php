@@ -49,17 +49,17 @@
             <div class="card-body">
                 <div class="body-first-row">
                     <div class="row">
-                        <x-service-card imageUrl="{{url('images/service1.jpg')}}" title="we provide you the best meaurement facilty.we provide you the best meaurement facilty.we provide you the best meaurement facilty"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Best learning facility from experienced guides.we provide you the best meaurement faciltywe provide you the best meaurement facilty"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service3.jpg')}}" title="subtle environment.we provide you the best meaurement facilty.we provide you the best meaurement facilty"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service1.jpg')}}" title="Title" description="we provide you the best meaurement facilty"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="title" description="Best learning facility from experienced guides."></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service3.jpg')}}" title="title" description="subtle environment."></x-service-card>
 
                     </div>
                 </div>
                 <div class="body-first-row">
                     <div class="row">
-                        <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Best learning facility from experienced guides.Best learning facility from experienced guides.Best learning facility from experienced guides"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service5.jpg')}}" title="subtle environment.subtle environment.subtle environment.subtle environment"></x-service-card>
-                        <x-service-card imageUrl="{{url('images/service4.jpg')}}" title="we provide you the best meaurement facilty.subtle environment.subtle environment"></x-service-card>
+                    <x-service-card imageUrl="{{url('images/service2.jpg')}}" title="Title" description="we provide you the best meaurement facilty"></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service5.jpg')}}" title="title" description="Best learning facility from experienced guides."></x-service-card>
+                        <x-service-card imageUrl="{{url('images/service4.jpg')}}" title="title" description="subtle environment."></x-service-card>
 
                     </div>
                 </div>

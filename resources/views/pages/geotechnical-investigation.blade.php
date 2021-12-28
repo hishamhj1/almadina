@@ -46,38 +46,8 @@
                         <li>Thermal Resistivity Test</li>
                     </ul>
                 </div>
-                <div class="booking-form-heading">
-                    <h3>Book Now</h3>
-                </div>
-                <div class="booking-form">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputName4">First Name</label>
-                                <input type="Text" class="form-control" id="inputName4">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputName4">Last Name</label>
-                                <input type="Text" class="form-control" id="inputName4">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputPassword4">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputAddress">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        </div>
-                        <button type="submit" class="btn btn-primary">submit</button>
-                    </form>
-                </div>
+
+
             </div>
             <div class="col-lg-2">
                 <div class="middle-content">
@@ -90,9 +60,9 @@
                             <a href="#">
                                 <h5>material Testing</h5>
                             </a>
-                            <!-- <a href="#">
+                            <a href="#">
                                 <p>Madeena Lab offers Physical, mechanical and chemical analysis of wide range of materials.....</p>
-                            </a> -->
+                            </a>
                         </div>
                     </div>
                     <div class="other-service">
@@ -101,13 +71,45 @@
                             <a href="#">
                                 <h5>material Testing</h5>
                             </a>
-                            <!-- <a href="#">
+                            <a href="#">
                                 <p>Madeena Lab offers Physical, mechanical and chemical analysis of wide range of materials.....</p>
-                            </a> -->
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="booking-form-heading">
+            <h3>Book Now</h3>
+        </div>
+        <div class="booking-form">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName4">First Name</label>
+                        <input type="Text" class="form-control" id="inputName4">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputName4">Last Name</label>
+                        <input type="Text" class="form-control" id="inputName4">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <button type="submit" class="btn btn-primary">submit</button>
+            </form>
         </div>
     </div>
 </div>
