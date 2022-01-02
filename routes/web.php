@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.home');
+    return view('landingpage.landingpage');
 });
 
 
@@ -42,13 +42,15 @@ route::get('blog',function(){
 route::get('readmore',function(){
     return view('pages.readmore');
 });
-route::get('geotechnical-investigation',function(){
-    return view('pages.geotechnical-investigation');
+route::get('servicedetail',function(){
+    return view('pages.servicedetail');
 });
-route::get('material-testing',function(){
-    return view('pages.material-testing');
+// route::get('material-testing',function(){
+//     return view('pages.material-testing');
+// });
+// route::get('laboratory-testing',function(){
+//     return view('pages.laboratory-testing');
+// });
+route::get('client',function(){
+    return view('pages.client');
 });
-route::get('laboratory-testing',function(){
-    return view('pages.laboratory-testing');
-});
-

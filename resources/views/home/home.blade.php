@@ -11,7 +11,7 @@
             <div class="carousel-item active">
                 <img src="{{url('images/carousel1.jpg')}}" class="d-block w-100 carousel_img" alt="image">
                 <div class="carousel-text">
-                    <p>welcome to my website</p>
+                    <p>welcome to my websitewelcome to my websitewelcome to my website</p>
                     <a href="#"><button type="submit" class="btn btn-primary">learn more</button></a>
                 </div>
             </div>
@@ -159,12 +159,17 @@
             <h4> For Subscription</h4>
         </div>
         <form>
-            <div class="form-group">
+            <div class="form-row">
+                <div class="offset-lg-4"></div>
+            <div class="form-group col-md-4 col-lg-4 col-sm-4">
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="hello@gmail.com" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
+            <div class="col-auto">
             <div class="subs-button" >
             <button type="submit" class="btn btn-primary">subscribe</button>
+            </div>
+            </div>
             </div>
         </form>
     </div>

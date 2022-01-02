@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="topbar-left-text">
-                        <a class="navbar-brand" href="{{url('/')}}">AL-Madina </a>
+                        <a class="navbar-brand" href="{{url('home')}}">AL-Madina </a>
                     </div>
 
                 </div>
@@ -33,29 +33,33 @@
                     <span class="navbar-toggler-icon">=</span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{url('home')}}">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('about')}}">About Us</a>
                         </li>
                         
                             <li class="nav-item dropdown">
-                                <a class="nav-link  dropdown-toggle" href="{{url('our-service')}}" data-bs-toggle="dropdown">Services </a>
+                                <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Services </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="{{url('geotechnical-investigation')}}">Geotechnical investigation  </a></li>
+                                    <li><a class="dropdown-item" href="{{url('servicedetail')}}">Geotechnical investigation  </a></li>
                                     <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="{{url('material-testing')}}">Material Testing </a></li>
+                                    <li><a class="dropdown-item" href="{{url('servicedetail')}}">Material Testing </a></li>
                                     <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item" href="{{url('laboratory-testing')}}">laboratory Testing</a></li>
+                                    <li><a class="dropdown-item" href="{{url('servicedetail')}}" >laboratory Testing</a></li>
                                     <div class="dropdown-divider"></div>
+                                    <li><a class="dropdown-item" href="{{url('our-service')}}">View All</a></li>
                                 </ul>
                             </li>    
 
 
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{(url('blog'))}}">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{(url('client'))}}">Client</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{url('gallery')}}">Gallery</a>

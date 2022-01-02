@@ -7,10 +7,10 @@
     </div>
 </div>
 
-<div class="service-page">
+<div class="service-page container">
     <div class="row">
         <div class="col-lg-4">
-            <a href="{{url('geotechnical-investigation')}}">
+            <!-- <a href="{{url('geotechnical-investigation')}}"> -->
                 <div class="service clearfix">
                     <div class="service-img">
                         <img src="{{url('images/service5.jpg')}}" alt="service-image">
@@ -20,16 +20,16 @@
                             <h4>Geotechnical Investigation</h4>
                             <p></p>
                         </div>Geotechnical investigation (Surface and Subsurface explorations) services to architects,
-                        developers, consultants and contractors......
+                        developers, consultants......
                     </div>
 
                     <a href="{{url('geotechnical-investigation')}}"><button type="submit" class="btn btn-primary">More</button></a>
 
                 </div>
-            </a>
+            <!-- </a> -->
         </div>
         <div class="col-lg-4">
-            <a href="{{url('material-testing')}}">
+            <!-- <a href="{{url('material-testing')}}"> -->
                 <div class="service clearfix">
                     <div class="service-img">
                         <img src="{{url('images/service4.jpg')}}" alt="service-image">
@@ -44,11 +44,11 @@
                     <a href="{{url('material-testing')}}"><button type="submit" class="btn btn-primary">More</button></a>
 
                 </div>
-            </a>
+            <!-- </a> -->
         </div>
         <div class="col-lg-4">
 
-            <a href="{{url('laboratory-testing')}}">
+            <!-- <a href="{{url('laboratory-testing')}}"> -->
                 <div class="service clearfix">
                     <div class="service-img">
                         <img src="{{url('images/service2.jpg')}}" alt="service-image">
@@ -63,12 +63,12 @@
                     <a href="{{url('laboratory-testing')}}"><button type="submit" class="btn btn-primary">More</button></a>
 
                 </div>
-            </a>
+            <!-- </a> -->
 
         </div>
 
     </div>
-    <div class="container">
+    <!-- <div class="container">
         <div class="booking-form-heading">
             <h3>Book us Now</h3>
         </div>
@@ -90,19 +90,15 @@
                         <label for="inputEmail4">Email</label>
                         <input type="email" class="form-control" id="inputEmail4">
                     </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                    </div>
                 </div>
                 <div class="form-group">
                     <label for="inputAddress">Address</label>
                     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                 </div>
-                <button type="submit" class="btn btn-primary">submit</button>
+                <button type="submit" class="btn btn-primary">Book</button>
             </form>
         </div>
-    </div>
+    </div> -->
 </div>
 </div>
 

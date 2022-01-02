@@ -6,13 +6,14 @@
         <h5>Gallery</h5>
     </div>
 </div>
-<div class="gallery-section">
+<!-- <div class="gallery-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
+                
                 <div class="gallery">
                     <a target="_top" href="{{('images/service1.jpg')}}">
-                        <img src="{{('images/service1.jpg')}}" alt="Cinque Terre" height="400">
+                        <img src="{{('images/service1.jpg')}}" alt="image" height="400">
                     </a>
 
                 </div>
@@ -46,7 +47,7 @@
             <div class="col-lg-3">
                 <div class="gallery">
                     <a target="_top" href="{{('images/service1.jpg')}}">
-                        <img src="{{('images/service1.jpg')}}" alt="Cinque Terre" height="400">
+                        <img src="{{('images/service1.jpg')}}" alt="image" height="400">
                     </a>
 
                 </div>
@@ -77,34 +78,94 @@
             </div>
         </div>
 
-        <div class="gallery-carousel">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{url('images/service1.jpg')}}" class="d-block w-100" alt="gallery">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{url('images/service3.jpg')}}" class="d-block w-100" alt="gallery">
-                       
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{url('images/review1.jpg')}}" class="d-block w-100" alt="gallery">
-                        
-                    </div>
+        
+    </div>
+</div> -->
+<!-- Images used to open the lightbox -->
+<div class="gallery-images">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="gallery">
+                    <img src="{{url('images/img1.jpg')}}" onclick="openModal();currentSlide(1)" class="hover-shadow">
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+            </div>
+            <div class="col-lg-3">
+                <div class="gallery">
+                    <img src="{{url('images/img2.jpg')}}" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="gallery">
+                    <img src="{{url('images/img3.jpg')}}" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="gallery">
+                    <img src="{{url('images/img4.jpg')}}" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="{{url('images/img1_wide.jpg')}}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="{{url('images/img2_wide.jpg')}}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="{{url('images/img3_wide.jpg')}}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="{{url('images/img4_wide.jpg')}}" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="gallery1">
+                    <img class="demo" src="{{url('images/img1.jpg')}}" onclick="currentSlide(1)" alt="Nature">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="gallery1">
+                    <img class="demo" src="{{url('images/img2.jpg')}}" onclick="currentSlide(2)" alt="Snow">
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                <div class="gallery1">
+                    <img class="demo" src="{{url('images/img3.jpg')}}" onclick="currentSlide(3)" alt="Mountains">
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                <div class="gallery1">
+                    <img class="demo" src="{{url('images/img4.jpg')}}" onclick="currentSlide(4)" alt="Lights">
+                </div>
             </div>
         </div>
     </div>

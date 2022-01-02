@@ -15,7 +15,8 @@
 <div class="contact container">
 	<div class="row">
 		<div class="col-lg-4 col-md-4">
-			<div class="contact-info-section">				
+			<span>
+				<div class="contact-info-section">				
 				<div class="phone-no-icon">
 					<i class="fas fa-phone-square fa-lg"></i>
 					<div class="v-stack gap-3">
@@ -41,13 +42,14 @@
 						<span>Follow Us</span>
 					</div>
 					<div class="social-icons">
-						<a href="#"><i class="fab fa-instagram"></i></a>
+						
 						<a href="#"><i class="fab fa-facebook"></i></a>
 						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
 					</div>
 				</div>		
-			</div>	
+			</div>
+			</span>	
 		</div>
 		<div class="col-lg-8 col-md-8">
 			<div class="contact-info-section">
@@ -60,17 +62,17 @@
 							<input type="text" class="form-control" placeholder="First name">
 						</div>
 						<div class="col">
-							<input type="Email" class="form-control" placeholder="Email">
+							<input type="text" class="form-control" placeholder="Last name">
 						</div>
 					</div>
 					<div class="form-group">
-						<input type="subject*" class="form-control" placeholder="subject">
+					<input type="Email" class="form-control" placeholder="Email">
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="write your Review"></textarea>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
 					</div>
 
-					<button type="button" class="btn btn-primary">Submit</button>
+					<a href="#"><button type="button" class="btn btn-primary">Submit</button></a>
 				</form>
 			</div>
 		</div>

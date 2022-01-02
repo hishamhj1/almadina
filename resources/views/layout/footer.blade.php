@@ -14,7 +14,7 @@
                         <p>we provide different type of services as per your requirements.</p>
                     </div>
                     <div class="footer-about-button">
-                        <a href="{{url('about-page')}}"><button type="submit" class="btn btn-primary">learn more</button></a>
+                        <a href="{{url('about')}}"><button type="submit" class="btn btn-primary">learn more</button></a>
                     </div>
                 </div>
             </div>
@@ -25,17 +25,15 @@
                     </div>
                     <ul class="footer-services">
                         <a href="{{url('our-service-page')}}">
-                            <li>Marketing</li>
+                            <li>Geotechnical investigation</li>
                         </a>
                         <a href="{{url('our-service-page')}}">
-                            <li>Productions</li>
+                            <li>Material Testing</li>
                         </a>
                         <a href="{{url('our-service-page')}}">
-                            <li>Learning</li>
+                            <li>laboratory testing</li>
                         </a>
-                        <a href="{{url('our-service-page')}}">
-                            <li>Personality Development</li>
-                        </a>
+                       
                     </ul>
                 </div>
             </div>
@@ -56,9 +54,9 @@
                         </a>
                     </ul>
                     <div class="icon">
-                        <a href="#"><i class="fab fa-instagram-square"></i></a>
                         <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#"><i class="fab fa-youtube-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>                      
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -72,7 +70,8 @@
         </div>
         <div class="copyrights">
             <div class="copyright-contents">
-                <p>Copyright © CreatuDevelopers. All Rights Reserved</p>
+                <p>Copyright © <Al-madina>. All Rights Reserved</p>
+                <p>developed by CreatuDevelopers</p>
             </div>
         </div>
     </div>
